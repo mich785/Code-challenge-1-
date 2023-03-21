@@ -5,6 +5,8 @@ function speedDetector(speed){
      const kmPerDemeritPoint = 5
      let demeritPoints = 0
      demeritPoints = (speed - 70 ) / kmPerDemeritPoint
+
+     // condition for demerit points 
      if (demeritPoints<12){
         return demeritPoints;
      }
@@ -14,4 +16,3 @@ function speedDetector(speed){
     }
     return "Ok";
 }
-console.log(speedDetector(135));
