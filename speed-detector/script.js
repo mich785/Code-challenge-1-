@@ -8,7 +8,7 @@ function speedDetector(speed){
 
      // condition for demerit points 
      if (demeritPoints<12){
-        return demeritPoints;
+        return "Points:"+ demeritPoints;
      }
      else{
         return "License suspended";
@@ -16,3 +16,4 @@ function speedDetector(speed){
     }
     return "Ok";
 }
+
